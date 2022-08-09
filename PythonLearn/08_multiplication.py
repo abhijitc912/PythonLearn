@@ -6,3 +6,6 @@ for i in range(2,num):
             f.write (f'{i}X{j}={i*j}')
             if j!=10:
                 f.write('\n')
+
+table = [(num-1)*n for n in range(1,11)]
+print(f'Multiplication table result for only the number enterd is: {table}')

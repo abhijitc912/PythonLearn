@@ -16,7 +16,7 @@ while (True):
         print(f'Input resulted in error {e}')
         
 print ('Bye!')
-
+#################################################################################################################
 
 try:
     a = int(input('Enter a number for division: '))
@@ -35,3 +35,15 @@ finally:
     print ('Thanks!')
 
 print('Bravo! You did not enter 0')               # If 0 is entered program exits and this line is not reached.
+###################################################################################################################
+
+def readFile(filename):
+    try:
+        with (open(filename,'r') as f):
+            print (f.read())
+    except FileNotFoundError:
+        print (f'File {filename} not found')
+        
+readFile('one.txt')
+readFile('two.txt')
+readFile('three.txt')                         #This file is not there but program will not exit throwing an error.

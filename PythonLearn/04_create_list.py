@@ -7,7 +7,7 @@ m5 = int(input("Enter marks for student 5: "))
 ### HANDY TRICK TO TYPE SIMILAR LINES VERY FAST IN VS CODE ###
 # To create above lines just type the first line.
 # Copy paste it 5 times.
-# Put curson next to m1 of second line and press "Alt" key. 
+# Put cursor next to m1 of second line and press "Alt" key. 
 # Now put second curson after 1 in the second line
 # Now we have two cursors with the cursor blinking after m1 in second line
 # Just use backspace to now delete 1 from m1 and make it m2 
