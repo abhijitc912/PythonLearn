@@ -2,7 +2,7 @@ import pyqrcode
 from pyqrcode import QRCode 
   
 # String which represent the QR code 
-s = "https://www.facebook.com/abhijit.chakraborty.0912"
+s = "https://github.com/abhijitc912/PythonLearn/tree/master/PythonLearn"
   
 # Generate QR code 
 url = pyqrcode.create(s) 
