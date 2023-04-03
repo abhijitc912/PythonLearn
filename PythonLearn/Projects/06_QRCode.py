@@ -1,3 +1,6 @@
+# pip install pyqrcode
+# pip install pypng
+
 import pyqrcode 
 from pyqrcode import QRCode 
   
@@ -9,3 +12,4 @@ url = pyqrcode.create(s)
   
 # Create and save the png file naming "myqr.png" 
 url.svg("Projects/qrcode.svg", scale = 8) 
+url.png("Projects/qrcode.png", scale = 8) 
