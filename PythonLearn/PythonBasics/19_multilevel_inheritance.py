@@ -17,7 +17,8 @@ class Programmer(Employee):
     def payTax(self):
         super().payTax()
         print ('Also since I am a programmer. I pay very high tax.\n')
-
+                                                # Leave 2 blank lines after defining a function
+   
 print ('#######################################\n')
 c = Citizen()
 e = Employee()

@@ -43,7 +43,8 @@ def readFile(filename):
             print (f.read())
     except FileNotFoundError:
         print (f'File {filename} not found')
-        
+                                                        # Leave 2 blank lines after defining a function
+   
 readFile('one.txt')
 readFile('two.txt')
 readFile('three.txt')                         #This file is not there but program will not exit throwing an error.

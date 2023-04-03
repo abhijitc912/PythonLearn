@@ -3,14 +3,16 @@ class Employee:
     
     def showDetails(self):
         print ('Tesla employee')
-
-class Programmer(Employee):
+                                                # Leave 2 blank lines after defining a function
+   
+class Programmer(Employee):                     # Inheritance
     language = 'Python'
     # company = 'Microsoft'
     
     def getLanguage(self):
         print (f'Employee is expert in {self.language}')
-    
+                                                    # Leave 2 blank lines after defining a function
+   
     # def showDetails(self):
         # print ('Python programmer at Tesla')
 

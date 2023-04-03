@@ -2,7 +2,8 @@ from functools import reduce
 
 
 def sum(a, b): return a+b
-
+                                                # Leave 2 blank lines after defining a function
+   
 l = [1, 2, 3, 4]
 
 val = reduce (sum,l)

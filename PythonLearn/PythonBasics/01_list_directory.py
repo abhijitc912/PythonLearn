@@ -8,3 +8,7 @@
 
 import os
 print (os.listdir())
+
+ints = [1,2,4]
+a,b,c = ints
+print (a,b,c)
