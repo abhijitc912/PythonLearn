@@ -13,6 +13,8 @@ ints = [1,2,4]
 a,b,c = ints
 print (a,b,c)
 
+###################################################################################
+
 mylist = []
 if not mylist:
     print ("The list is empty")
