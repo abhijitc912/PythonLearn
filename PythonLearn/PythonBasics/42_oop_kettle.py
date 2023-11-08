@@ -21,6 +21,7 @@ class Kettle(object):
 
 
 kenwood = Kettle("Kenwood", 100)
+#print(help(kenwood))
 print(kenwood.make)
 print(kenwood.price)
 
