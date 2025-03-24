@@ -1,4 +1,4 @@
-from employee_inh import Employee, SalaryEmployee, MonthlyEmployee
+from employee import Employee, SalaryEmployee, MonthlyEmployee, CommissionEmployees
 
 class Company:
     def __init__(self):
@@ -27,7 +27,7 @@ def main():
     my_company.add_employee(employee1)
     employee2 = MonthlyEmployee('Subhajit','Chakraborty', 6, 400000)    # Calling MonthlyEmployee constructor
     my_company.add_employee(employee2)
-    employee3 = MonthlyEmployee('Srijeet','Chakraborty', 6, 1000000)
+    employee3 = CommissionEmployees('Srijeet','Chakraborty', 6000000, 1, 20000 )
     my_company.add_employee(employee3)
 
     my_company.display_employees()
