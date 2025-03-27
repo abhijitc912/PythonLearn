@@ -1,5 +1,12 @@
+def add_acronym():
+    acronym = input ('What acronym do you want to add?\n')
+    definition = input ('What is the definition?')
+
+    with open('Acronyms.txt', 'a') as file:
+        file.write(acronym+' - '+definition+'\n')
+
 def find_acronym():
-    look_up= input('What Amadeus acronym would you like to look up?')
+    look_up= input('What Amadeus acronym would you like to look up?\n')
 
     found = False
 
@@ -18,13 +25,6 @@ def find_acronym():
     if not found:
         print('The acronym does not exist')
 
-def add_acronym():
-    acronym = input ('What acronym do you want to add?\n')
-    definition = input ('What is the definition?')
-
-    with open('Acronyms.txt', 'a') as file:
-        file.write(acronym+' - '+definition+'\n')
-
 def main():
     choice = input('Do you want to Find(F) or Add(A) an acronym?\n')
     if choice == 'F':
@@ -32,6 +32,7 @@ def main():
     elif choice == 'A':
         add_acronym()
 
-main()
+if __name__ == "__main__":
+    main()
                 
             

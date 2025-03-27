@@ -1,1 +1,2 @@
 IaC - Infrastructure as Code
+PaaS - Platform as a Service
